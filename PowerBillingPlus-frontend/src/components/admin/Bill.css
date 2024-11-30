@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Bill {
+  /* border: 3px solid red; */
+  display: flex;
+}
+
+.dbtn {
+  display: flex;
+  justify-content: end;
+}
+
+.dbtn button {
+  width: fit-content;
+  background-color: #4318ff;
+  color: #fff;
+}
+.tablebody {
+  background-color: #f6f9ff;
+}
+
+.tbody {
+  height: 90vh;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  /* border: 3px solid brown; */
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+  padding: 0.5rem;
+  width: 79vw;
+  margin: auto;
+}
+.billtable {
+  /* border: 3px solid green; */
+  width: max-content;
+  margin: auto;
+  
+}
+
+.billcontainer {
+  /* border:3px solid red; */
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .Bill {
+    /* border: 5px solid red; */
+    height: 100vh;
+  }
+  .billtable {
+    /* border: 3px solid green; */
+    margin-top: 3.5rem;
+    height: 85vh;
+    margin: 3.5rem 0 0 -4rem !important;
+  }
+  .billcontainer {
+    /* border: 3px solid brown; */
+    width: 80vw !important;
+    height: 70vh;
+  }
+}

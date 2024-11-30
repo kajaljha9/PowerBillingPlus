@@ -1,0 +1,85 @@
+.AdminProfile {
+  /* border:2px solid pink; */
+  height: 100vh;
+  display: flex;
+}
+
+
+
+.adminDetails {
+   /* border: 2px solid greenyellow; */
+   background-color: #fff;
+   border-radius: 16px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   animation: fadeIn 0.6s ease-in-out;
+   padding: 3rem;
+   margin-top: 10px;
+   width:70vw;
+   margin:auto;
+}
+
+.a {
+  /* border: 2px solid red; */
+  margin: 2%;
+  height: 3rem;
+  width: auto;
+  border-radius: 5%;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom right,
+    #868cff,
+    #7670ff,
+    #6c60ff,
+    #593eff,
+    #5538ff,
+    #4318ff
+  );
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.bc {
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5%;
+  height: auto;
+}
+
+.c {
+  /* border:2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.c img {
+  /* border:2px solid green; */
+  height: 90%;
+  margin-top: -30%;
+}
+
+.editbtn {
+  display: flex;
+  justify-content: center;
+  /* border:2px solid red; */
+}
+.userDetails {
+  /* border: 5px solid red; */
+  width: 70vw;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .AdminProfile {
+    /* border: 5px solid red; */
+    height: 100vh;
+  }
+  .userDetails {
+    /* border: 3px solid green; */
+    margin-top: 3.5rem;
+    height: 50vh;
+    margin: 3.5rem 0 0 -1.5rem !important;
+  }
+}

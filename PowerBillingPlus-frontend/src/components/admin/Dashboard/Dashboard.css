@@ -1,0 +1,115 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.Dashboard {
+  border:2px solid red;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  
+  
+}
+.dashtrack {
+  margin-left: 4rem;
+  width: 70vw !important;
+}
+
+
+@media (max-width: 768px) {
+  .dashtrack {
+    margin-left: -9rem;
+    border: 2px solid green;
+    width: 100vw !important;
+  }
+
+  @media (max-width: 480px) {
+ 
+    .dashtrack {
+      margin-top: 4.5rem;
+      margin-left: -5rem;
+      border: 2px solid blue;
+      width: 100vw !important;
+    }
+  }
+} */
+
+
+.Dashboard {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.gnav {
+  flex-shrink: 0;
+}
+
+h2 {
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #ddd;
+  margin-bottom: 20px;
+}
+
+.BoxContainer {
+  flex: 1;
+  padding: 20px;
+  overflow: auto; /* Enables scrolling if content exceeds 100vh */
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards in one row */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #007aff; /* Example: Blue background for cards */
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px; /* Smaller padding */
+  margin: 0;
+  height: 150px; /* Set a fixed height for the cards */
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardIcon {
+  font-size: 30px; /* Smaller icon size */
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 16px; /* Smaller title size */
+}
+
+.cardSubtitle {
+  font-size: 12px; /* Smaller subtitle size */
+}
+
+.chartContainer {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

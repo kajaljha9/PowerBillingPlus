@@ -1,0 +1,77 @@
+.Reports {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8, #e0eafc);
+  /* padding: 20px; */
+}
+
+.paydetails {
+  /* border:2px solid blue; */
+  /* animation: fadeIn 0.6s ease-in-out; */
+  background-color: #F6F9FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  /* width: 90vw; */
+}
+.paydetails1 {
+  /* border: 2px solid blue;   */
+  animation: fadeIn 0.6s ease-in-out;
+  height: 55vh;
+  margin-top: 2px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  background-color: #fff;
+  width: 73vw;
+  padding: 10px;
+}
+
+
+.paydhead h5 {
+  font-family: "Poppins", sans-serif;
+  color: #1d4ea3;
+  font-weight: bold;
+}
+
+.paytable {
+  border-radius: 16px;
+  /* overflow: hidden; */
+  height: 45vh;
+}
+
+.paytable .MuiTableCell-head {
+  background-color: #1d4ea3;
+  color: white;
+  font-weight: bold;
+}
+
+.MuiTableBody-root tr:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.renav {
+  /* width: 100%; */
+  width: auto;
+  /* padding: 10px; */
+}
+
+.ppdiv {
+  margin-top: 5px;
+  width: 100%;
+  /* border:2px solid pink; */
+  height: 50vh;
+}
+
+/* Add some responsive animations */
+@media (max-width: 768px) {
+  .paydetails {
+    width: 100vw;
+  }
+}

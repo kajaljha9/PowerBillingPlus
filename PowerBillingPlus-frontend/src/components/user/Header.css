@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #f6f9ff;
+  height: 3.5rem;
+  width: 100%;
+  color: #012970;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 1rem; */
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  padding: 0px 20px;
+}
+
+/* Styling for the icon-name container */
+.icon-name {
+  width: auto;
+  display: contents;
+  /* align-items: center; */
+  width: max-content;
+  cursor: pointer;
+  gap: 10px;
+  border: 2px solid green;
+  padding: auto;
+}
+
+/* Styling for the icon */
+.icon {
+  width: max-content;
+  /* border: 2px solid yellow; */
+}
+
+/* Styling for the name */
+
+/* .name {
+  border:2px solid pink;
+} */
+
+.name  {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  display: block;
+  position:inherit;
+}
+h3{
+  font-size: initial;
+
+}
+
+/* Navbar styling */
+
+.navbar {
+  /* border: 1px solid blue; */
+  display: flex;
+  width: auto;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-top: 1%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #012970;
+  padding: 0 10px;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none !important;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navbar {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display:flex !important; 
+    /* border:2px solid red; */
+  }
+
+  .navbar.open {
+    display: block; 
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    width: 40%;
+    background-color: #f6f9ff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    opacity:100% !important;
+    z-index: 10;
+    
+  }
+
+  
+
+  .navbar.open ul {
+    /* border:2px solid red;  */
+    display: block;
+    text-align: center;
+  }
+
+  .navbar.open li {
+    /* border:2px solid red;  */
+    padding:  0;
+    border-bottom: 1px dotted rgb(214, 214, 214);
+    
+  }
+}

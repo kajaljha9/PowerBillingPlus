@@ -1,0 +1,99 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+.a1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  padding: 0 !important;
+  margin-bottom: 55px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+#about > div {
+  width: 50%;
+
+  margin-bottom: 10px;
+}
+
+.head_div {
+  margin: 0 0 0 2%;
+}
+
+.a2 {
+  background-color: #f6f9ff;
+  padding: 2% 5%;
+}
+
+.a2 p {
+  line-height: 1.5rem !important;
+}
+
+.GetStartImage img {
+  width: 85% !important;
+}
+
+.loginImage {
+  margin-top: 80px;
+}
+
+.loginImage img {
+  width: 30rem;
+}
+
+.contbtn {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.a2 img {
+  width: 100%;
+}
+
+.a3 img {
+  width: 100%;
+}
+
+.a4 img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  background-color: lightgray;
+  padding-top: 20px;
+  border: 1px;
+  box-shadow: 5px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+  .a2 {
+    margin: 0;
+    padding: 1rem;
+    width: 100% !important;
+  }
+  .GetStartImage {
+    display: none;
+  }
+
+  .loginImage img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}

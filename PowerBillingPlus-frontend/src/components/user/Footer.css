@@ -1,0 +1,35 @@
+.f1 {
+  /* border: 2px solid red; */
+  margin-left: 10px;
+  color: #012970;
+  width: 60%;
+  font-size: small;
+}
+
+.f2 {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  font-size: small;
+}
+
+#f2b {
+  /* border:2px solid pink; */
+  width: 30%;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  bottom: 0;
+  /* background-color: rgb(220, 219, 219); */
+  background-color: #f6f9ff;
+  padding-top: 20px;
+  border: 1px;
+  box-shadow: 5px;
+  margin-top: 10px;
+  font-size: small;
+}

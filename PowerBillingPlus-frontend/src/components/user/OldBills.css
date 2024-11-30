@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .OldBills {
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .OldBills {
+   padding:0px;
+  }
+}
