@@ -1,8 +1,13 @@
 //src/ api/apiService.js
 import axios from "axios";
 
-
-const API = axios.create({ baseURL: "http://localhost:5050/api" });
+// const API = axios.create({ baseURL: "http://localhost:5050/api" });
+// const API = axios.create({
+//   baseURL: "https://power-billing-plus-bwy2r2d6l-kajaljha9s-projects.vercel.app"
+// });
+const API = axios.create({
+  baseURL: import.meta.env.VITE_BACKEND_BASEURL,
+});
 
 // Admin SignUp
 export const registerAdmin = (adminData) =>
