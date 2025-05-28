@@ -23,14 +23,13 @@ app.use(
   cors({
     origin: process.env.FRONTEND_URL,
     credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
 
 // Explicitly handle preflight (OPTIONS) requests
-app.options("*", cors());
-
+// app.options("*", cors());
 
 app.use(express.json());
 
