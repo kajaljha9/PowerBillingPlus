@@ -1,0 +1,42 @@
+/* src/components/adfmin/AdminLogin.css */
+.AdminLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f4ff;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+
+.admin-card {
+  background-color: rgba(255, 255, 255, 0.95); /* slight transparency */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.loginfo {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.fp a {
+  text-decoration: none;
+  color: #4154f1;
+}
+
+.fp a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .loginfo {
+    width: 90vw;
+  }
+
+  .loginImage {
+    display: none;
+  }
+}

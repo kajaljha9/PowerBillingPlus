@@ -1,0 +1,33 @@
+/* src/components/user/UserLoginPage.css */
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f4ff;
+  padding: 40px 20px;
+}
+
+.loginfo {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.fp a {
+  text-decoration: none;
+  color: #4154f1;
+}
+
+.fp a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .loginfo {
+    width: 90vw;
+  }
+
+  .loginImage {
+    display: none;
+  }
+}

@@ -1,0 +1,121 @@
+/* src/components/admin/ManageUser.css */
+
+/* Layout Fixes */
+.ManageUser {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.users {
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.6s ease-in-out;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* Controls Wrapper */
+.user-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Search + Filter */
+.manageusersearch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Add User Button Group */
+.addbtn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.addbtn button {
+  background-color: #4318ff;
+  color: #fff;
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+/* Table Container */
+.udtablebody {
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+.userdetail {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  background-color: #f6f9ff;
+}
+
+.MuiTableCell-root {
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+  .user-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .manageusersearch {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .addbtn {
+    justify-content: center;
+  }
+
+  .addbtn button {
+    width: 100%;
+  }
+
+  .users {
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  .MuiTableCell-root {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .MuiTableCell-head {
+    font-size: 0.9rem;
+  }
+
+  .userdetail {
+    border-radius: 0;
+    background-color: #fff;
+  }
+}

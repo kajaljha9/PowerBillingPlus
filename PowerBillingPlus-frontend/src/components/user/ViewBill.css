@@ -1,0 +1,55 @@
+/* src/components/user/ViewBill.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ViewBill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+  padding: 2rem;
+  margin-top: 10px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.vob {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.billtable {
+  padding: 0;
+  margin-top: 0;
+}
+
+.billtable1 {
+  padding: 0;
+  margin: 0;
+  height: 57vh;
+}
+
+.btn2,
+.viewbtn {
+  background-color: #4318ff !important;
+}
+
+@media (max-width: 768px) {
+  .ViewBill {
+    width: 100vw;
+    padding: 10px;
+  }
+  .billtable {
+    width: 100% !important;
+  }
+  .billtable1 {
+    margin: 0 !important;
+  }
+}

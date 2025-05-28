@@ -1,0 +1,85 @@
+/* src/components/admin/GenerateBill.css */
+.GenerateBill {
+  display: flex;
+}
+.gnav {
+  width: 20%;
+}
+
+.genDetails {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+  padding: 2.5rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+.calbtn {
+  width: fit-content;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .GenerateBill {
+    height: 100vh;
+  }
+  .genDetails {
+    margin: 4rem 0 0 -1rem !important;
+    height: fit-content;
+  }
+}
+
+main h2 {
+  background: linear-gradient(to right, #4318ff, #5538ff);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+   text-align: center;
+  margin-bottom: 2rem;
+}
+
+.MuiTextField-root {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.MuiButton-contained {
+  background-color: #4318ff !important;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-transform: none;
+}
+.MuiButton-contained:hover {
+  background-color: #372bbd !important;
+}
+
+.Grid-item {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .genDetails {
+    padding: 1.5rem;
+    width: 95%;
+  }
+
+  main h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,56 @@
+/* src/components/admin/Dashboard/Dashboard.css */
+.admin-dashboard {
+  padding: 20px;
+  margin-left: 32px;
+  background-color: #e4f7fc;
+}
+
+.page-header {
+  color: #2b3674;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.dashboard-cards {
+  margin-bottom: 32px;
+}
+
+.dashboard-charts {
+  margin-top: 16px;
+}
+
+.admin-chart {
+  padding: 24px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.admin-chart:hover {
+  transform: translateY(-4px);
+}
+
+/* src/components/admin/Dashboard/Dashboard.css */
+
+.filter-bar {
+  margin-bottom: 20px;
+}
+
+.filter-bar select,
+.filter-bar button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .admin-chart {
+    padding: 16px;
+  }
+
+  .page-header {
+    font-size: 20px;
+    text-align: center;
+  }
+}

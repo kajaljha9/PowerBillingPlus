@@ -1,0 +1,127 @@
+/* src/components/user/UserHeader.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #f6f9ff;
+  height: 3.5rem;
+  width: 100%;
+  color: #012970;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+
+/* Styling for the icon-name container */
+.icon-name {
+  width: auto;
+  display: contents;
+  width: max-content;
+  cursor: pointer;
+  gap: 10px;
+  padding: auto;
+}
+
+/* Styling for the icon */
+.icon {
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  display: flex;
+  position: inherit;
+  align-items: center;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  display: block;
+  position: inherit;
+}
+h3 {
+  font-size: initial;
+}
+
+/* Navbar styling */
+
+.welcome-box {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #120101;
+  width: auto;
+}
+
+.navbar {
+  display: flex;
+  width: auto;
+  margin-left: 20px !important;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-top: 1%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #012970;
+  padding: 0 10px;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none !important;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex !important;
+    /* border:2px solid red; */
+  }
+
+  .navbar.open {
+    display: block;
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    width: 40%;
+    background-color: #f6f9ff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    opacity: 100% !important;
+    z-index: 10;
+  }
+
+  .navbar.open ul {
+    /* border:2px solid red;  */
+    display: block;
+    text-align: center;
+  }
+
+  .navbar.open li {
+    padding: 0;
+    border-bottom: 1px dotted rgb(214, 214, 214);
+  }
+}

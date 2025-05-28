@@ -1,0 +1,85 @@
+/* src/components/admin/AdminNavbar.css */
+
+.sidebar {
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  z-index: 1100;
+}
+
+.sidebar.expanded {
+  width: 220px;
+}
+
+.sidebar.collapsed {
+  width: 70px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bolt {
+  color: #4318ff;
+}
+
+.nav-item {
+  padding: 10px 20px;
+}
+
+.nav-icon {
+  color: #4318ff !important;
+  width: auto !important;
+}
+
+.logout-icon {
+  color: #e74c3c;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1200;
+  height: 60px;
+}
+
+.drawer {
+  width: 220px;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+  }
+
+  .admin-content-wrapper {
+    padding-top: 60px; 
+  }
+}

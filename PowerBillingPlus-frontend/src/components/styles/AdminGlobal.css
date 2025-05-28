@@ -1,0 +1,211 @@
+/* src/components/styles/AdminGlobal.css */
+
+body {
+    background-color: #f4f6fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-left: 5px solid #4318ff;
+    padding-left: 10px;
+  }
+  
+  .admin-card {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+  }
+  
+  .admin-form-control {
+    margin-bottom: 20px;
+  }
+  
+  .admin-button {
+    background-color: #4318ff;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    text-transform: none;
+    font-weight: 500;
+  }
+  
+  .admin-button:hover {
+    background-color: #3621b5;
+  }
+  
+  .admin-table-container {
+    margin-top: 20px;
+  }
+  
+  .admin-table thead tr {
+    background-color: #4318ff;
+  }
+  
+  .admin-table thead th {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .admin-table td, .admin-table th {
+    padding: 12px;
+  }
+  
+  .status-paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-unpaid {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .filter-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .admin-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-btn {
+    background-color: #e74c3c !important;
+  }
+  
+  .page-header {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+
+  /* Global Admin CSS */
+.page-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #2b3674;
+}
+
+.admin-button {
+  background-color: #4318ff !important;
+  color: white !important;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.admin-table {
+  background-color: #fff;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+
+.admin-table thead {
+  background-color: #4318ff;
+  color: white;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px;
+  font-size: 14px;
+}
+
+.admin-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-item {
+  border-radius: 8px;
+  margin: 4px 8px;
+}
+
+.sidebar-item:hover {
+  background-color: #e5e8ff;
+}
+
+.sidebar-icon {
+  min-width: 40px;
+  color: #4318ff;
+}
+
+.logout-icon {
+  color: #e74c3c;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mobile-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.sidebar-item {
+  transition: padding 0.3s ease;
+}
+
+.sidebar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-icon {
+  color: #e74c3c;
+}
+
+
+.card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.admin-chart {
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+

@@ -1,0 +1,113 @@
+/* src/components/user/Payment.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Payment {
+  width: 100%;
+  min-height: 90vh;
+  background: linear-gradient(to right, #e0f2ff, #dce7ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+}
+
+/* Payment Box */
+.paybox {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Info Box */
+.info-box {
+  background: #f0f4ff;
+  border: 1px solid #d1ddff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Payment Image Styling */
+.payment-image-container {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.payment-image {
+  width: 100%;
+  /* max-width: 300px; */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.payment-image:hover {
+  transform: scale(1.03);
+}
+
+
+/* Form Inputs */
+.form-item {
+  margin-bottom: 1.4rem;
+}
+
+.MuiInputBase-root {
+  background-color: #f9faff;
+  border-radius: 8px;
+}
+
+/* Button Style */
+.confirmbtn {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.confirmbtn button {
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.confirmbtn button:hover {
+  background-color: #00a86b !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .paybox {
+    padding: 1.2rem;
+  }
+
+  .info-box {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .confirmbtn button {
+    width: 100%;
+  }
+}
