@@ -27,6 +27,8 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
+
+
 app.use(express.json());
 
 // Routes
