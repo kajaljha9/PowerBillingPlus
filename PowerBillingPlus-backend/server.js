@@ -28,16 +28,22 @@ app.use(
   })
 );
 
-
 app.use(express.json());
 
 // Routes
-app.use("/api/admin", adminRoutes);
-app.use("/api/users", userRoutes);
-app.use("/api/bills", billRoutes);
-app.use("/api/dashboard", dashboardRoutes);
-app.use("/api/tariff", tariffRoutes);
-app.use("/api/mock", mockRoutes);
+// app.use("/api/admin", adminRoutes);
+// app.use("/api/users", userRoutes);
+// app.use("/api/bills", billRoutes);
+// app.use("/api/dashboard", dashboardRoutes);
+// app.use("/api/tariff", tariffRoutes);
+// app.use("/api/mock", mockRoutes);
+///////////////////////////////////////
+app.use("/admin", adminRoutes);
+app.use("/users", userRoutes);
+app.use("/bills", billRoutes);
+app.use("/dashboard", dashboardRoutes);
+app.use("/tariff", tariffRoutes);
+app.use("/mock", mockRoutes);
 
 app.use(errorHandler);
 
