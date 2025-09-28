@@ -116,13 +116,13 @@ const AdminLogin = () => {
             <Box
               sx={{ mt: 2, display: "flex", justifyContent: "space-between" }}
             >
-              <Typography
+              {/* <Typography
                 variant="body2"
                 sx={{ cursor: "pointer", color: "#4318ff" }}
                 onClick={() => navigate("/AdminSignUp")}
               >
                 New Admin? Sign Up
-              </Typography>
+              </Typography> */}
               <Button onClick={() => navigate("/")}>Back</Button>
             </Box>
           </form>
