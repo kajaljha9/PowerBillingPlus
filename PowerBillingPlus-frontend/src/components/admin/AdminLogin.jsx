@@ -118,10 +118,10 @@ const AdminLogin = () => {
             >
                <Typography
                 variant="body2"
-                sx={{ cursor: "pointer", color: "#4318ff" }}
-                onClick={() => navigate("/AdminSignUp")}
+                {/* sx={{ cursor: "pointer", color: "#4318ff" }}
+                onClick={() => navigate("/AdminSignUp")} */}
               >
-                 Use this credential for testing: email: "admin@gmail.com" pass: "admin@123"
+                 Test login: admin@gmail.com / admin@123
                 {/* New Admin? Sign Up */}
               </Typography> 
  <Button onClick={() => navigate("/")}>Back</Button> 
