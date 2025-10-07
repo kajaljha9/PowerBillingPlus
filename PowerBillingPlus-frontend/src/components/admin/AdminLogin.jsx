@@ -116,15 +116,20 @@ const AdminLogin = () => {
             <Box
               sx={{ mt: 2, display: "flex", justifyContent: "space-between" }}
             >
-               <Typography
+               {/* <Typography
                 variant="body2"
-                {/* sx={{ cursor: "pointer", color: "#4318ff" }}
-                onClick={() => navigate("/AdminSignUp")} */}
+                 sx={{ cursor: "pointer", color: "#4318ff" }}
+                onClick={() => navigate("/AdminSignUp")} 
               >
-                 Test login: admin@gmail.com / admin@123
-                {/* New Admin? Sign Up */}
-              </Typography> 
- <Button onClick={() => navigate("/")}>Back</Button> 
+                 New Admin? Sign Up 
+              </Typography>  */}
+              <Typography
+    variant="body2"
+    
+  >
+    Test login: admin@gmail.com / admin@123
+  </Typography>
+              <Button onClick={() => navigate("/")}>Back</Button> 
             </Box>
           </form>
         </Box>
