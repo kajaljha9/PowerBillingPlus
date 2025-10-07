@@ -124,7 +124,7 @@ const AdminLogin = () => {
                  Use this credential for testing: email: "admin@gmail.com" pass: "admin@123"
                 {/* New Admin? Sign Up */}
               </Typography> 
-              {/* <Button onClick={() => navigate("/")}>Back</Button> */}
+ <Button onClick={() => navigate("/")}>Back</Button> 
             </Box>
           </form>
         </Box>
