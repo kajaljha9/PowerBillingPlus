@@ -121,9 +121,10 @@ const AdminLogin = () => {
                 sx={{ cursor: "pointer", color: "#4318ff" }}
                 onClick={() => navigate("/AdminSignUp")}
               >
-                New Admin? Sign Up
+                 Use this credential for testing: email: "admin@gmail.com" pass: "admin@123"
+                {/* New Admin? Sign Up */}
               </Typography> 
-              <Button onClick={() => navigate("/")}>Back</Button>
+              {/* <Button onClick={() => navigate("/")}>Back</Button> */}
             </Box>
           </form>
         </Box>
